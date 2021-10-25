@@ -1,0 +1,66 @@
+@media screen and (max-width: 1290px) and (min-width: 1200px) {
+  #root .MuiGrid-container .MuiGrid-grid-lg-3 {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 {
+    flex-basis: 70%;
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 1030px) and (min-width: 930px) {
+  #root .MuiGrid-container {
+    padding-right: 10px;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-3 {
+    padding-left: 22px;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 {
+    padding-left: 22px;
+  }
+}
+@media screen and (max-width: 929px) and (min-width: 901px) {
+  #root .MuiGrid-container .MuiGrid-grid-lg-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 .MuiPaper-root > div {
+    overflow-x: scroll;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 .MuiPaper-root > div > table {
+    min-width: 800px;
+  }
+}
+@media screen and (max-width: 350px) and (min-width: 320px) {
+  #root .MuiGrid-container {
+    padding-right: 10px;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-3 {
+    padding-left: 22px;
+  }
+  #root .MuiGrid-container .MuiGrid-grid-lg-9 {
+    padding-left: 22px;
+  }
+}
+
+/* Scrollbar css */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #d1d1d1;
+}
